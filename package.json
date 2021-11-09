@@ -1,49 +1,19 @@
 {
-  "name": "toothsome-mood-sting-v94w6",
-  "productName": "toothsome-mood-sting-v94w6",
-  "description": "My Electron application description",
-  "keywords": [],
-  "main": "./main.js",
+  "name": "electrondemo",
   "version": "1.0.0",
-  "author": "Manba",
+  "description": "",
+  "main": "main.js",
   "scripts": {
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make",
-    "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "electron": "13.1.7",
-    "@electron-forge/cli": "^6.0.0-beta.59",
-    "@electron-forge/maker-deb": "^6.0.0-beta.59",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.59",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.59",
-    "@electron-forge/maker-zip": "^6.0.0-beta.59"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guomamba/Electron.git"
   },
-  "config": {
-    "forge": {
-      "packagerConfig": {},
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel"
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
-        }
-      ]
-    }
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guomamba/Electron/issues"
+  },
+  "homepage": "https://github.com/guomamba/Electron#readme"
 }
